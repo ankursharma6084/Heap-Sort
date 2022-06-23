@@ -16,7 +16,6 @@ using namespace std;
 <!--     //Heapify function to maintain heap property. -->
     void heapify(int arr[], int n, int i)  
     {
-<!--       // Your Code Here -->
          int mxIdx = i ;
          int left = 2*i+1 ;
          int right = 2*i+2 ;
@@ -65,7 +64,7 @@ using namespace std;
     }
 };
 
- 
+<!--   Input  -->
 int32_t main()  {
  ios_base::sync_with_stdio(false);
   cin.tie(NULL);
